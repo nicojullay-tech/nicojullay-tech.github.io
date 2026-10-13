@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy information | Personal Backup OAuth</title>
+  <style>body{font:1.1rem/1.55 system-ui,sans-serif;max-width:44rem;margin:3rem auto;padding:0 1.25rem;color:#222}a{color:#064fa1}</style>
+</head>
+<body>
+  <h1>Privacy information</h1>
+  <p>Personal Backup OAuth is used only by its owner to connect rclone to the owner's Google Drive for encrypted Restic backups. It does not offer accounts or services to other people.</p>
+  <p>The application requests the Google Drive <code>drive.file</code> permission so rclone can create, list, read, update, and remove backup files used with this application. It is not used to inspect unrelated files in the owner's Drive.</p>
+  <p>Restic encrypts the backup contents locally before transfer. Google Drive stores the resulting encrypted repository objects. The connection does not operate a separate server, sell data, or share Google user data with other people or services. OAuth credentials remain on the owner's computer.</p>
+  <p>The owner can revoke the connection at any time in Google Account settings. Revocation stops future access, but does not itself delete encrypted backup files already stored in Drive.</p>
+  <p><a href="index.html">Back to homepage</a></p>
+</body>
+</html>
